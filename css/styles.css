@@ -164,6 +164,10 @@ body {
   background-color: var(--primary-bg-dark);
 }
 
+.footer .logo-accent {
+  color: var(--primary-txt-dark);
+}
+
 .address {
   font-style: normal;
 }
