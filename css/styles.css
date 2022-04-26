@@ -159,6 +159,43 @@ body {
   color: var(--primary-txt-light);
 }
 
+/* Portfolio */
+.menu-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+
+  background-color: var(--secondary-bg-light);
+  color: var(--secondary-txt-light);
+}
+
+.menu-btn:hover,
+.menu-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-txt-dark);
+}
+
+.card-tittle {
+  font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+
+color: var(--secondary-txt-light);
+}
+
+.card-txt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-txt-light);
+}
+
 /* Footer */
 .footer {
   background-color: var(--primary-bg-dark);
