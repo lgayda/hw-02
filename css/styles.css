@@ -82,6 +82,10 @@ body {
   color: var(--accent-color);
 }
 
+.current {
+  color: var(--accent-color);
+}
+
 /* Hero */
 .hero {
   background-color: var(--primary-bg-dark);
@@ -105,6 +109,7 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
   text-align: center;
+  cursor: pointer;
 
   color: var(--primary-txt-dark);
   background-color: var(--accent-color);
